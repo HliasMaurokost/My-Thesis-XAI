@@ -1,0 +1,239 @@
+2025-09-09 03:58:34 - __main__ - INFO - ================================================================================
+2025-09-09 03:58:34 - __main__ - INFO - ΕΦΑΡΜΟΓΗ ΤΑΞΙΝΟΜΗΣΗΣ ΕΙΚΟΝΩΝ ΓΑΤΑΣ/ΣΚΥΛΟΥ
+2025-09-09 03:58:34 - __main__ - INFO - ================================================================================
+2025-09-09 03:58:34 - __main__ - INFO - Λειτουργία: train
+2025-09-09 03:58:34 - __main__ - INFO - Dataset path: Dataset
+2025-09-09 03:58:34 - __main__ - INFO - Output directory: outputs
+2025-09-09 03:58:34 - root - INFO - GPU διαθέσιμο: NVIDIA GeForce RTX 4070 Laptop GPU
+2025-09-09 03:58:34 - root - INFO - Αριθμός CUDA cores: 1
+2025-09-09 03:58:34 - root - INFO - CUDA version: 11.8
+2025-09-09 03:58:34 - __main__ - INFO - Χρήση συσκευής: cuda
+2025-09-09 03:58:34 - __main__ - INFO - Φάκελοι εξόδου δημιουργήθηκαν επιτυχώς
+2025-09-09 03:58:34 - __main__ - INFO - Προετοιμασία dataset...
+2025-09-09 03:58:34 - utils.data_utils - INFO - Dataset validation επιτυχής: cat=12500, dog=12500
+2025-09-09 03:58:35 - utils.data_utils - INFO - Dataset ήδη προετοιμασμένο και έγκυρο
+2025-09-09 03:58:35 - utils.data_utils - INFO - Κλάση Cat: 12500 εικόνες
+2025-09-09 03:58:35 - utils.data_utils - INFO - Κλάση Dog: 12500 εικόνες
+2025-09-09 03:58:35 - utils.data_utils - INFO - Dataset validation επιτυχής
+2025-09-09 03:58:35 - __main__ - INFO - Dataset προετοιμάστηκε επιτυχώς
+2025-09-09 03:58:35 - training.trainer - INFO - Ρύθμιση φορτωτών δεδομένων...
+2025-09-09 03:58:35 - utils.data_utils - INFO - Φόρτωση dataset από: dataset
+2025-09-09 03:58:35 - utils.data_utils - INFO - Βρέθηκαν κλάσεις: ['Cat', 'Dog']
+2025-09-09 03:58:35 - utils.data_utils - INFO - Έλεγχος κλάσης Cat...
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\10125.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\10501.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\10820.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\11095.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\11210.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\11565.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\11874.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\11935.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\12080.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\140.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\2663.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\3300.jpg
+2025-09-09 03:58:35 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\3491.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\4833.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\5370.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\5553.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\5673.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\6435.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\660.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\666.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\7968.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\7978.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\8470.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\850.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\9171.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\936.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\9565.jpg
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Cat\9778.jpg
+2025-09-09 03:58:36 - utils.data_utils - INFO - Έλεγχος κλάσης Dog...
+2025-09-09 03:58:36 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\10158.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\10401.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\10747.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\10797.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11285.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11410.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11675.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11702.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11849.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\11853.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\1259.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\1308.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\1789.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\1866.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\2384.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\2688.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\2877.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\3136.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\3288.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\3588.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\4367.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\5604.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\5736.jpg
+2025-09-09 03:58:37 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\6059.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\6238.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\6245.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\6318.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\6718.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7112.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7133.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7369.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7459.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7514.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\7969.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\8730.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\9078.jpg
+2025-09-09 03:58:38 - utils.data_utils - WARNING - Κατεστραμμένη εικόνα παραλείφθηκε: dataset\Dog\9188.jpg
+2025-09-09 03:58:38 - utils.data_utils - INFO - Έγκυρες εικόνες: 24935/25000
+2025-09-09 03:58:38 - utils.data_utils - INFO - Φορτώθηκε dataset με 24935 εικόνες
+2025-09-09 03:58:38 - utils.data_utils - INFO - Κλάσεις: ['Cat', 'Dog']
+2025-09-09 03:58:38 - utils.data_utils - INFO - Dataset splits: train=17454, val=3740, test=3741
+2025-09-09 03:58:38 - utils.data_utils - INFO - ==================================================
+2025-09-09 03:58:38 - utils.data_utils - INFO - DATALOADERS ΔΗΜΙΟΥΡΓΗΘΗΚΑΝ ΕΠΙΤΥΧΩΣ
+2025-09-09 03:58:38 - utils.data_utils - INFO - Train samples: 17454
+2025-09-09 03:58:38 - utils.data_utils - INFO - Validation samples: 3740
+2025-09-09 03:58:38 - utils.data_utils - INFO - Test samples: 3741
+2025-09-09 03:58:38 - utils.data_utils - INFO - Batch size: 32
+2025-09-09 03:58:38 - utils.data_utils - INFO - Workers: 4
+2025-09-09 03:58:38 - utils.data_utils - INFO - ==================================================
+2025-09-09 03:58:38 - training.trainer - INFO - Φορτωτές δεδομένων δημιουργήθηκαν επιτυχώς
+2025-09-09 03:58:38 - training.trainer - INFO - Κλάσεις: ['Cat', 'Dog']
+2025-09-09 03:58:38 - training.trainer - INFO - Δείγματα εκπαίδευσης: 17454
+2025-09-09 03:58:38 - training.trainer - INFO - Δείγματα επικύρωσης: 3740
+2025-09-09 03:58:38 - training.trainer - INFO - Δείγματα δοκιμής: 3741
+2025-09-09 03:58:38 - training.trainer - INFO - Αρχικοποίηση μοντέλου...
+2025-09-09 03:58:38 - training.trainer - INFO - Μοντέλο αρχικοποιήθηκε επιτυχώς
+2025-09-09 03:58:38 - training.trainer - INFO - Συνολικές παράμετροι: 11,821,354
+2025-09-09 03:58:38 - training.trainer - INFO - Εκπαιδεύσιμες παράμετροι: 11,821,354
+2025-09-09 03:58:38 - training.trainer - INFO - Συσκευή: cuda
+2025-09-09 03:58:38 - training.trainer - INFO - Ρυθμός μάθησης: 0.001
+2025-09-09 03:58:38 - training.trainer - INFO - Μέγεθος batch: 32
+2025-09-09 03:58:38 - __main__ - INFO - Trainer αρχικοποιήθηκε επιτυχώς
+2025-09-09 03:58:38 - __main__ - INFO - ============================================================
+2025-09-09 03:58:38 - __main__ - INFO - ΈΝΑΡΞΗ ΕΚΠΑΙΔΕΥΣΗΣ ΜΟΝΤΕΛΟΥ
+2025-09-09 03:58:38 - __main__ - INFO - ============================================================
+2025-09-09 03:58:38 - __main__ - INFO - Epochs: 20
+2025-09-09 03:58:38 - __main__ - INFO - Batch size: 32
+2025-09-09 03:58:38 - __main__ - INFO - Learning rate: 0.001
+2025-09-09 03:58:38 - training.trainer - INFO - ================================================================================
+2025-09-09 03:58:38 - training.trainer - INFO - ΕΝΑΡΞΗ ΕΚΠΑΙΔΕΥΣΗΣ ΜΟΝΤΕΛΟΥ
+2025-09-09 03:58:38 - training.trainer - INFO - ================================================================================
+2025-09-09 03:58:38 - training.trainer - INFO - Εpochs: 20
+2025-09-09 03:58:38 - training.trainer - INFO - Learning rate: 0.001
+2025-09-09 03:58:38 - training.trainer - INFO - Batch size: 32
+2025-09-09 03:58:38 - training.trainer - INFO - Device: cuda
+2025-09-09 03:58:38 - training.trainer - INFO - Dataset: Dataset
+2025-09-09 03:58:38 - training.trainer - INFO - Output directory: outputs
+2025-09-09 03:58:38 - training.trainer - INFO - ================================================================================
+2025-09-09 03:59:44 - training.trainer - INFO - Epoch 1/20
+2025-09-09 03:59:44 - training.trainer - INFO -   Train Loss: 0.2109 | Train Accuracy: 0.9172
+2025-09-09 03:59:44 - training.trainer - INFO -   Val Loss: 0.1366 | Val Accuracy: 0.9430
+2025-09-09 03:59:44 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 65.68s
+2025-09-09 03:59:44 - training.trainer - INFO -   ✓ Νέο καλύτερο μοντέλο!
+2025-09-09 03:59:45 - training.trainer - INFO - Μοντέλο αποθηκεύτηκε: outputs\models\best_model.pth
+2025-09-09 03:59:45 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:00:21 - training.trainer - INFO - Epoch 2/20
+2025-09-09 04:00:21 - training.trainer - INFO -   Train Loss: 0.1544 | Train Accuracy: 0.9416
+2025-09-09 04:00:21 - training.trainer - INFO -   Val Loss: 0.2494 | Val Accuracy: 0.9128
+2025-09-09 04:00:21 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 35.87s
+2025-09-09 04:00:21 - training.trainer - INFO -   Patience: 1/5
+2025-09-09 04:00:21 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:00:58 - training.trainer - INFO - Epoch 3/20
+2025-09-09 04:00:58 - training.trainer - INFO -   Train Loss: 0.1288 | Train Accuracy: 0.9494
+2025-09-09 04:00:58 - training.trainer - INFO -   Val Loss: 0.1958 | Val Accuracy: 0.9283
+2025-09-09 04:00:58 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 37.23s
+2025-09-09 04:00:58 - training.trainer - INFO -   Patience: 2/5
+2025-09-09 04:00:58 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:01:35 - training.trainer - INFO - Epoch 4/20
+2025-09-09 04:01:35 - training.trainer - INFO -   Train Loss: 0.1220 | Train Accuracy: 0.9532
+2025-09-09 04:01:35 - training.trainer - INFO -   Val Loss: 0.1225 | Val Accuracy: 0.9529
+2025-09-09 04:01:35 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 37.42s
+2025-09-09 04:01:35 - training.trainer - INFO -   ✓ Νέο καλύτερο μοντέλο!
+2025-09-09 04:01:37 - training.trainer - INFO - Μοντέλο αποθηκεύτηκε: outputs\models\best_model.pth
+2025-09-09 04:01:37 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:02:13 - training.trainer - INFO - Epoch 5/20
+2025-09-09 04:02:13 - training.trainer - INFO -   Train Loss: 0.1044 | Train Accuracy: 0.9598
+2025-09-09 04:02:13 - training.trainer - INFO -   Val Loss: 0.1363 | Val Accuracy: 0.9393
+2025-09-09 04:02:13 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 36.42s
+2025-09-09 04:02:13 - training.trainer - INFO -   Patience: 1/5
+2025-09-09 04:02:13 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:02:50 - training.trainer - INFO - Epoch 6/20
+2025-09-09 04:02:50 - training.trainer - INFO -   Train Loss: 0.0967 | Train Accuracy: 0.9623
+2025-09-09 04:02:50 - training.trainer - INFO -   Val Loss: 0.1282 | Val Accuracy: 0.9468
+2025-09-09 04:02:50 - training.trainer - INFO -   Learning Rate: 0.001000 | Time: 36.89s
+2025-09-09 04:02:50 - training.trainer - INFO -   Patience: 2/5
+2025-09-09 04:02:50 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:03:27 - training.trainer - INFO - Epoch 7/20
+2025-09-09 04:03:27 - training.trainer - INFO -   Train Loss: 0.0917 | Train Accuracy: 0.9656
+2025-09-09 04:03:27 - training.trainer - INFO -   Val Loss: 0.1768 | Val Accuracy: 0.9390
+2025-09-09 04:03:27 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 37.06s
+2025-09-09 04:03:27 - training.trainer - INFO -   Patience: 3/5
+2025-09-09 04:03:27 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:04:04 - training.trainer - INFO - Epoch 8/20
+2025-09-09 04:04:04 - training.trainer - INFO -   Train Loss: 0.0339 | Train Accuracy: 0.9875
+2025-09-09 04:04:04 - training.trainer - INFO -   Val Loss: 0.1000 | Val Accuracy: 0.9687
+2025-09-09 04:04:04 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 37.11s
+2025-09-09 04:04:04 - training.trainer - INFO -   ✓ Νέο καλύτερο μοντέλο!
+2025-09-09 04:04:05 - training.trainer - INFO - Μοντέλο αποθηκεύτηκε: outputs\models\best_model.pth
+2025-09-09 04:04:05 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:04:41 - training.trainer - INFO - Epoch 9/20
+2025-09-09 04:04:41 - training.trainer - INFO -   Train Loss: 0.0149 | Train Accuracy: 0.9950
+2025-09-09 04:04:41 - training.trainer - INFO -   Val Loss: 0.1149 | Val Accuracy: 0.9703
+2025-09-09 04:04:41 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 35.97s
+2025-09-09 04:04:41 - training.trainer - INFO -   Patience: 1/5
+2025-09-09 04:04:41 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:05:18 - training.trainer - INFO - Epoch 10/20
+2025-09-09 04:05:18 - training.trainer - INFO -   Train Loss: 0.0084 | Train Accuracy: 0.9974
+2025-09-09 04:05:18 - training.trainer - INFO -   Val Loss: 0.1089 | Val Accuracy: 0.9741
+2025-09-09 04:05:18 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 37.05s
+2025-09-09 04:05:18 - training.trainer - INFO -   Patience: 2/5
+2025-09-09 04:05:18 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:05:56 - training.trainer - INFO - Epoch 11/20
+2025-09-09 04:05:56 - training.trainer - INFO -   Train Loss: 0.0054 | Train Accuracy: 0.9984
+2025-09-09 04:05:56 - training.trainer - INFO -   Val Loss: 0.1339 | Val Accuracy: 0.9711
+2025-09-09 04:05:56 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 37.17s
+2025-09-09 04:05:56 - training.trainer - INFO -   Patience: 3/5
+2025-09-09 04:05:56 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:06:33 - training.trainer - INFO - Epoch 12/20
+2025-09-09 04:06:33 - training.trainer - INFO -   Train Loss: 0.0060 | Train Accuracy: 0.9985
+2025-09-09 04:06:33 - training.trainer - INFO -   Val Loss: 0.1345 | Val Accuracy: 0.9719
+2025-09-09 04:06:33 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 37.09s
+2025-09-09 04:06:33 - training.trainer - INFO -   Patience: 4/5
+2025-09-09 04:06:33 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:07:10 - training.trainer - INFO - Epoch 13/20
+2025-09-09 04:07:10 - training.trainer - INFO -   Train Loss: 0.0043 | Train Accuracy: 0.9987
+2025-09-09 04:07:10 - training.trainer - INFO -   Val Loss: 0.1424 | Val Accuracy: 0.9719
+2025-09-09 04:07:10 - training.trainer - INFO -   Learning Rate: 0.000100 | Time: 36.95s
+2025-09-09 04:07:10 - training.trainer - INFO -   Patience: 5/5
+2025-09-09 04:07:10 - training.trainer - INFO - --------------------------------------------------
+2025-09-09 04:07:10 - training.trainer - INFO - Early stopping μετά από 13 epochs
+2025-09-09 04:07:10 - training.trainer - INFO - ================================================================================
+2025-09-09 04:07:10 - training.trainer - INFO - ΟΛΟΚΛΗΡΩΣΗ ΕΚΠΑΙΔΕΥΣΗΣ
+2025-09-09 04:07:10 - training.trainer - INFO - ================================================================================
+2025-09-09 04:07:10 - training.trainer - INFO - Συνολικός χρόνος: 511.33 δευτερόλεπτα (8.52 λεπτά)
+2025-09-09 04:07:10 - training.trainer - INFO - Εpochs που ολοκληρώθηκαν: 13
+2025-09-09 04:07:10 - training.trainer - INFO - Καλύτερο validation loss: 0.1000
+2025-09-09 04:07:10 - training.trainer - INFO - Καλύτερη validation accuracy: 0.9741
+2025-09-09 04:07:10 - training.trainer - INFO - ================================================================================
+2025-09-09 04:07:11 - training.trainer - INFO - Μοντέλο αποθηκεύτηκε: outputs\models\final_model.pth
+2025-09-09 04:07:12 - training.trainer - INFO - Γραφήματα εκπαίδευσης αποθηκεύτηκαν: outputs\plots\training_history.png
+2025-09-09 04:07:14 - training.trainer - INFO - Δυναμικά γραφήματα εκπαίδευσης δημιουργήθηκαν επιτυχώς
+2025-09-09 04:07:14 - training.trainer - INFO - Μετρικές εκπαίδευσης αποθηκεύτηκαν: outputs\metrics\training_metrics_20250909_040714.txt
+2025-09-09 04:07:14 - training.trainer - INFO - Αποθήκευση εικόνων δοκιμής για XAI...
+2025-09-09 04:07:32 - training.trainer - INFO - Αποθηκεύτηκαν 20 εικόνες δοκιμής για XAI
+2025-09-09 04:07:32 - training.trainer - INFO - Πληροφορίες XAI αποθηκεύτηκαν: outputs\xai_info
+2025-09-09 04:07:32 - training.trainer - INFO - Εκτέλεση Grad-CAM ανάλυσης...
+2025-09-09 04:07:32 - training.trainer - INFO - Βρέθηκε target layer: backbone.layer4.0.conv2
+2025-09-09 04:07:38 - training.trainer - INFO - Grad-CAM ανάλυση ολοκληρώθηκε: 20 εικόνες
+2025-09-09 04:07:38 - training.trainer - INFO - Εκτέλεση LIME ανάλυσης...
+2025-09-09 04:08:57 - training.trainer - INFO - LIME ανάλυση ολοκληρώθηκε: 15 εικόνες
+2025-09-09 04:08:57 - training.trainer - INFO - Εκτέλεση SHAP ανάλυσης με βελτιωμένες παραμέτρους...
+2025-09-09 04:08:59 - training.trainer - INFO - SHAP Partition explainer δημιουργήθηκε με 10 background samples
+2025-09-09 04:09:56 - training.trainer - INFO - Όλες οι μετρικές αποθηκεύτηκαν στο: outputs\metrics\training_metrics_20250909_040714.txt
+2025-09-09 04:09:56 - training.trainer - INFO - Εικόνες δοκιμής και πληροφορίες XAI αποθηκεύτηκαν επιτυχώς
+2025-09-09 04:09:56 - __main__ - INFO - Εκπαίδευση ολοκληρώθηκε επιτυχώς
+2025-09-09 04:09:56 - __main__ - INFO - ================================================================================
+2025-09-09 04:09:56 - __main__ - INFO - ΕΦΑΡΜΟΓΗ ΟΛΟΚΛΗΡΩΘΗΚΕ ΕΠΙΤΥΧΩΣ
+2025-09-09 04:09:56 - __main__ - INFO - ================================================================================
