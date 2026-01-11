@@ -1,0 +1,52 @@
+{
+  "gradcam": {
+    "model_type": "ResNet18",
+    "target_layer": "layer4.1.conv2",
+    "class_names": [
+      "Cat",
+      "Dog"
+    ],
+    "model_path": "outputs\\models\\best_model.pth",
+    "test_images_dir": "outputs\\test_images",
+    "output_dir": "outputs\\gradcam_results",
+    "description": "Grad-CAM για οπτικοποίηση περιοχών που επηρεάζουν την πρόβλεψη"
+  },
+  "lime": {
+    "model_type": "ResNet18",
+    "class_names": [
+      "Cat",
+      "Dog"
+    ],
+    "model_path": "outputs\\models\\best_model.pth",
+    "test_images_dir": "outputs\\test_images",
+    "output_dir": "outputs\\lime_results",
+    "num_samples": 1000,
+    "description": "LIME για τοπική ερμηνεία προβλέψεων"
+  },
+  "shap": {
+    "model_type": "ResNet18",
+    "class_names": [
+      "Cat",
+      "Dog"
+    ],
+    "model_path": "outputs\\models\\best_model.pth",
+    "test_images_dir": "outputs\\test_images",
+    "output_dir": "outputs\\shap_results",
+    "background_samples": 50,
+    "description": "SHAP για ολική ερμηνεία μοντέλου"
+  },
+  "training_info": {
+    "best_val_loss": 0.09997118063340447,
+    "best_val_accuracy": 0.9740641711229947,
+    "total_epochs": 13,
+    "training_time": 511.329496383667
+  },
+  "dataset_info": {
+    "class_names": [
+      "Cat",
+      "Dog"
+    ],
+    "num_classes": 2,
+    "test_samples": 3741
+  }
+}
